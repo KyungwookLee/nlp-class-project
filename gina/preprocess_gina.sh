@@ -12,5 +12,5 @@ python preprocess_gina.py ../data/mbti_1.csv | shuf > $tsv_file
 
 echo "Split data"
 head -n 5205 $tsv_file > $train_file
-head -n 6940 $tsv_file > tail -n 5205 > $valid_file
+head -n 6940 $tsv_file | tail -n 1735 > $valid_file
 tail -n 1735 $tsv_file > $test_file
