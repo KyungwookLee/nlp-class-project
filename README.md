@@ -20,7 +20,7 @@ You can get preprocessed post data from ``preprocess_new/split_[train/test/val]`
 
 ## Results
 Accuracies, balanced accuracies, and F1-scores of each model for each task:
-<img align="middle" width="700" src="https://github.com/l1905kw/tree/master/imgs/result.PNG">
+<img align="middle" width="700" src="https://github.com/l1905kw/blob/master/imgs/result.PNG">
 
 Top 20 important words for classifying MBTI types:
-<img align="middle" width="700" src="https://github.com/l1905kw/tree/master/imgs/important_words.PNG">
+<img align="middle" width="700" src="https://github.com/l1905kw/blob/master/imgs/important_words.PNG">
